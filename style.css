@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Cuprum&display=swap');
+*{
+    font-family: 'Cuprum', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header{
+    background: silver; 
+    height: 80px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5px;
+    margin: 30px;
+}
+
+.header a{
+    text-decoration: none;
+    color: teal;
+    padding: 5px 20px;
+    font-size: 25px;
+    transition: .4s;
+    margin: 15px;
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+.header a:hover{
+    background: dodgerblue;
+    color: white;
+    font-weight: bold;
+}
+
+section{
+    display: flex;
+    height: 100%;
+    flex-wrap: wrap;
+    /* background: lightgrey; */
+    padding: 10px;
+    margin: 20px;
+    justify-content: space-evenly;
+}
+
+.content{
+    background: transparent;
+    padding: 10px;
+    width: 380px;
+    height: 320px;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.content img{
+    height: 100%;
+    position: relative;
+    width: 100%;
+    filter: brightness(50%);
+    
+}
+
+.content .about{
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.about h1{
+    margin-bottom: 25px;
+    font-size: 35px;
+    color: #f1f1f1;
+}
+
+.about a{
+    text-decoration: none;
+    color: #f1f1f1;
+    font-weight: 900;
+    font-size: 25px;
+    border: 2px solid white;
+    padding: 10px 25px;
+}
+
+.content:hover{
+    transform: scale(1.1);
+    padding: 18px;
+}
+/* 
+.kids{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 20px;
+    margin: 200px auto;
+    height: 100%;
+    justify-content: space-evenly;
+}
+
+.container{
+    flex-basis: 333.28px;
+    margin: 10px;
+    height: 516px;
+}
+
+.container img{
+    height: 80%;
+    width: 100%;
+}
+
+.text{
+    text-align: center;
+    margin: 5px;
+    font-size: 20px;
+}
+
+.text b{
+    color: red;
+}
+
+.text h4{
+    margin-top: 20px;
+}
+
+.text a{
+    text-decoration: none;
+    color: #000000;
+    background: #98FFED;
+    padding: 10px 120px;
+    border-radius: 10px;
+}
+
+.verh h1{
+    text-align: center;
+    margin-bottom: 50px;
+} */
