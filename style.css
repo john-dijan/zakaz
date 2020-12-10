@@ -37,6 +37,17 @@
     margin-right: 8px;
 }
 
+h1{
+    margin-top: 50px;
+    font-size: 60px;
+    border-bottom: 4px solid black;
+}
+
+i{
+    text-align: center;
+    color: red;
+}
+
 
 section{
     display: flex;
