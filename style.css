@@ -6,86 +6,94 @@
     box-sizing: border-box;
 }
 .header{
-    background: silver; 
-    height: 80px;
-    border-radius: 20px;
     display: flex;
     justify-content: space-evenly;
-    padding: 5px;
-    margin: 30px;
+    margin: 10px;
+    padding: 10px 20px;
+    background: silver;
+    height: 80px;
+    border-radius: 20px;
 }
+
 
 .header a{
     text-decoration: none;
     color: teal;
-    padding: 5px 20px;
     font-size: 25px;
-    transition: .4s;
-    margin: 15px;
-    border-radius: 8px;
-    font-weight: 600;
+    margin: 10px;
+    padding: 5px 20px;
+    border-radius: 10px;
+    font-weight: 800;
+    transition: .3s;
 }
 
 .header a:hover{
     background: dodgerblue;
     color: white;
-    font-weight: bold;
 }
+
+.header i{
+    color: black;
+    margin-right: 8px;
+}
+
 
 section{
     display: flex;
-    height: 100%;
     flex-wrap: wrap;
-    /* background: lightgrey; */
-    padding: 10px;
-    margin: 20px;
+    padding: 30px;
     justify-content: space-evenly;
+    width: 100%;
+    margin-top: 30px;
+    height: 100%;
 }
 
 .content{
-    background: transparent;
+    flex: 33.3%;
     padding: 10px;
-    width: 380px;
-    height: 320px;
-    transition: 1s;
-    cursor: pointer;
 }
 
 .content img{
-    height: 100%;
+    width: 380px;
+    height: 350px;
+    border-radius: 20px;
+    transition: 1.5s;
     position: relative;
-    width: 100%;
     filter: brightness(50%);
-    
 }
 
 .content .about{
     position: relative;
     z-index: 1;
     text-align: center;
-    top: 80%;
-    left: 50%;
+    top: -42%;
+    left: 46%;
     transform: translate(-50%, -50%);
 }
 
 .about h1{
+    font-size: 40px;
     margin-bottom: 25px;
-    font-size: 35px;
-    color: #f1f1f1;
+    color: white;
 }
 
 .about a{
     text-decoration: none;
-    color: #f1f1f1;
-    font-weight: 900;
-    font-size: 25px;
+    color: white;
+    padding: 10px 20px;
     border: 2px solid white;
-    padding: 10px 25px;
+    font-size: 30px;
 }
 
 .content:hover{
     transform: scale(1.1);
     padding: 18px;
+}
+
+.content img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    filter: brightness(100%);
 }
 /* 
 .kids{
