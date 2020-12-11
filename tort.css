@@ -145,20 +145,36 @@ h1{
 }
 
 @media (max-width: 1000px){
-    .content > .text{
-        margin-right: 120px;
-}
-
-    .content{
-        margin-left: 130px;
+    
+    section{
+        display: flex;
+        flex-flow: wrap column;
     }
 
-    .container img{
-        margin-left: 100px;
+    .content{
+        flex: 100%;
+    }
+
+    .content img{
+        width: 80%;    
+    }
+    
+    .content > .text{
+        margin-right: 90px;
+}
+
+    .child{
+        display: flex;
+        flex-flow: column wrap;
     }
 
     .container{
-        margin-bottom: 20px;
+        flex: 100%;
+    }
+
+    .container img{
+        width: 80%;
+        margin-left: 50px;
     }
 
     .container  > .text{
