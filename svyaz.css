@@ -16,6 +16,11 @@
     margin: 10px;
 }
 
+.header i{
+    margin-right:8px;
+    color:black;
+}
+
 .header a{
     text-decoration: none;
     color: teal;
